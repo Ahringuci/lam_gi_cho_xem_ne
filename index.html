@@ -23,7 +23,7 @@
         }
 
         body {
-            background-color: #000;
+            background-color: #000913;
         }
 
         .app {
@@ -36,6 +36,8 @@
 
         #canvas {
             margin: auto;
+            position: relative;
+            z-index: 2;
         }
 
         .spritesheet {
@@ -48,11 +50,10 @@
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: 999;
+            z-index: 1;
             user-select: none;
             pointer-events: none;
             opacity: 0;
-
             transition: opacity 150ms linear;
         }
 

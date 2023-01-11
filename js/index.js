@@ -185,8 +185,8 @@ const fps = 1000 / 60;
 
         // -----------------------------------------> UPDATE
         //*! -> draw background
-        ctx.fillStyle = "#000913";
-        ctx.fillRect(0, 0, _cw, _ch);
+        // ctx.fillStyle = "#000913";
+        // ctx.fillRect(0, 0, _cw, _ch);
 
         const { oItems } = array_object;
         const { oSystem } = single_object;
